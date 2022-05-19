@@ -1,7 +1,3 @@
-#ifndef _WIN32
-#error UNSUPPORTED PLATFORM
-#endif // _WIN32
-
 #ifndef AMBER_H
 #define AMBER_H
 
