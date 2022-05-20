@@ -30,8 +30,7 @@ namespace AMBER
         while(std::getline(read, temp))
         {
             for(int x = 0; x < temp.length(); x++)
-            {
-                temp[x] = std::toupper(temp[x]);
+            {                temp[x] = std::toupper(temp[x]);
             }
             for(int x = 0; x < temp.length(); x++)
             {
