@@ -2,14 +2,14 @@
 1651533117 source:c:\users\jkim2\desktop\coding\codeblocks\c++ projects\jklm.fun bot\amber.cpp
 	"Amber.h"
 
-1653003750 c:\users\jkim2\desktop\coding\codeblocks\c++ projects\jklm.fun bot\amber.h
+1653113457 c:\users\jkim2\desktop\coding\codeblocks\c++ projects\jklm.fun bot\amber.h
 	<iostream>
 	<chrono>
 	<vector>
 	<limits>
 	<random>
 
-1651532334 source:c:\users\jkim2\desktop\coding\codeblocks\c++ projects\jklm.fun bot\amberwin32.cpp
+1651969636 source:c:\users\jkim2\desktop\coding\codeblocks\c++ projects\jklm.fun bot\amberwin32.cpp
 	"AmberWin32.h"
 
 1651532324 c:\users\jkim2\desktop\coding\codeblocks\c++ projects\jklm.fun bot\amberwin32.h
@@ -19,7 +19,7 @@
 	<cmath>
 	<windows.h>
 
-1653004542 source:c:\users\jkim2\desktop\coding\codeblocks\c++ projects\jklm.fun bot\main.cpp
+1653006089 source:c:\users\jkim2\desktop\coding\codeblocks\c++ projects\jklm.fun bot\main.cpp
 	<iostream>
 	<fstream>
 	<vector>
