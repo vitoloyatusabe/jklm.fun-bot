@@ -21,10 +21,10 @@ int main()
     {
         if(GetAsyncKeyState(VK_UP))
         {
+            window2 = GetForegroundWindow();
             AMBER::SLEEP(0.01);
             SetForegroundWindow(window1);
             SetActiveWindow(window1);
-            window2 = GetForegroundWindow();
             std::cout << "~Set [focused window] to browser window" << std::endl;
             break;
         }
@@ -69,17 +69,17 @@ int main()
             {
                 if(GetAsyncKeyState(VK_UP))
                 {
+                    window2 = GetForegroundWindow();
                     AMBER::SLEEP(0.01);
                     SetForegroundWindow(window1);
                     SetActiveWindow(window1);
-                    window2 = GetForegroundWindow();
                     std::cout << "~Set [focused window] to browser window" << std::endl;
                     break;
                 }
             }
         } else if(letters.find("/CLEAR") != std::string::npos)
         {
-            letters.clear();
+            usedwords.clear();
             std::cout << "~usedwords.clear()" << std::endl;
         } else if(letters.find("/CLS") != std::string::npos)
         {
@@ -120,13 +120,13 @@ int main()
                         {
                             AMBER::presskey(std::toupper(temp[x]), 0, false);
                         }
-                        AMBER::SLEEP(windowSwitchDelay);
                         //hit enter automatically
                         keybd_event(VK_RETURN, 0, KEYEVENTF_EXTENDEDKEY, 0);
                         AMBER::SLEEP(0.01);
                         keybd_event(VK_RETURN, 0, KEYEVENTF_KEYUP, 0);
                         AMBER::SLEEP(0.01);
                         //set focused/active window back to console
+                        AMBER::SLEEP(windowSwitchDelay);
                         SetForegroundWindow(window1);
                         SetActiveWindow(window1);
                         break;
