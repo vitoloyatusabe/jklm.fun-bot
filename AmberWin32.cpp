@@ -131,11 +131,6 @@ namespace AMBER
                 {
                     /*
                     y = mx + b
-                    remember what "Mr. Chopra" the chad taught you
-                    fuck you "Mr. Chopra" you were an ass teacher and you fucking sucked
-                    hope you trip and break your femur
-                    you're ass for telling kids they're gonna fail in life and getting away with it
-                    having such a terrible man teaching the next generation is a failure on the school system
                     */
 
                     //calculate Y Intercept
